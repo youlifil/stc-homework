@@ -12,9 +12,9 @@ pip install -r requirements.txt
 ## Входные данные
 `data/STARLINK.txt` - TLE-файл с данными спутников
 
-`data/situation-A.txt` - конфигурация для заданий 1 и 2
+`data/situation-A.json` - конфигурация для заданий 1 и 2
 
-`data/situation-B.txt` - конфигурация для задания 3
+`data/situation-B.json` - конфигурация для задания 3
 ## Запуск
 ### Задания 1 и 2
 `python main.py --satellites=data/STARLINK.txt --config=data/situation-A.json`
