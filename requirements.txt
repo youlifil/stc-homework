@@ -1,0 +1,11 @@
+certifi==2026.1.4
+click==8.3.1
+jplephem==2.24
+numpy==2.0.2
+pandas==2.2.3
+python-dateutil==2.9.0.post0
+pytz==2025.2
+sgp4==2.25
+six==1.17.0
+skyfield==1.49
+tzdata==2025.3
