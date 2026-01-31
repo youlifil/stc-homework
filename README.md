@@ -17,10 +17,10 @@ pip install -r requirements.txt
 `data/situation-B.json` - конфигурация для задания 3
 ## Запуск
 ### Задания 1 и 2
-`python main.py --satellites=data/STARLINK.txt --config=data/situation-A.json`
+`python -m solver --satellites=data/STARLINK.txt --config=data/situation-A.json`
 
 ### Задание 3
-`python main.py --satellites=data/STARLINK.txt --config=data/situation-B.json`
+`python -m solver --satellites=data/STARLINK.txt --config=data/situation-B.json`
 
 ## Результаты
 ### Задания 1 и 2

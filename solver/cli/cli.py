@@ -7,7 +7,7 @@
 """
 
 import click
-from config_parser import parse_config
+from .config_parser import parse_config
 from solver import sat_visible, SolverConfig
 
 
@@ -18,7 +18,7 @@ from solver import sat_visible, SolverConfig
 @click.option("-c", "--config", 
               required=True, 
               help="JSON-файл с условиями задачи")
-def main(satellites: str = "", config: str = "") -> None:
+def cli_main(satellites: str = "", config: str = "") -> None:
     """
     Основная функция командной строки.
     
@@ -37,7 +37,3 @@ def main(satellites: str = "", config: str = "") -> None:
     """
     solver_config: SolverConfig = parse_config(config)
     sat_visible(satellites, solver_config)
-
-
-if __name__ == "__main__":
-    main()
